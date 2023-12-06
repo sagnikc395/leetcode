@@ -1,3 +1,3 @@
 # leetcode
 
-Leetcode Solutions in Javascript and Typescript.
+Leetcode Solutions in Javascript and Python.
