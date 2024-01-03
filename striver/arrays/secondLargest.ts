@@ -11,3 +11,33 @@ const secondLargestBF = (arr: number[]): number => {
   }
   return sec_largest;
 };
+
+const secondLargestBetter = (arr: number[]): number => {
+  let largest = Number.MIN_SAFE_INTEGER;
+  arr.forEach((item) => {
+    if (item > largest) {
+      largest = item;
+    }
+  });
+  let seclargest = Number.MIN_SAFE_INTEGER;
+  arr.forEach((item) => {
+    if (item > seclargest && seclargest !== largest) {
+      seclargest = item;
+    }
+  });
+  return seclargest;
+};
+
+const secondLargestOptimal = (arr: number[]): number => {
+  let largest = arr[0];
+  let seclargest = Number.MIN_SAFE_INTEGER;
+
+  for (let i = 1; i < arr.length; i++) {
+    let temp = largest;
+    if (arr[i] > largest) {
+      largest = arr[i];
+      seclargest = temp;
+    }
+  }
+  return seclargest;
+};
