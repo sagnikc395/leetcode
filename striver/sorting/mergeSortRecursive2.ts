@@ -1,30 +1,20 @@
-//TODO need to debug !
-
-class MergeSort {
+class MergeSort2 {
   arr: number[] = [];
-  low = 0;
-  high = 0;
-  mid = 0;
-  constructor(arr: number[], low: number, high: number) {
+  constructor(arr: number[]) {
     this.arr = arr;
-    this.low = low;
-    this.high = high;
   }
 
-  public mergeSortRecusive() {
-    this.mergeSortRecursiveUtility(this.low, this.high);
+  public mergeSortRecursive() {
+    this.mergeSortRecursiveUtility(0, this.arr.length - 1);
   }
 
   private mergeSortRecursiveUtility(low: number, high: number) {
-    if (low >= high) {
-      return;
+    if (low < high) {
+      const mid = Math.floor((low + high) / 2);
+      this.mergeSortRecursiveUtility(low, mid);
+      this.mergeSortRecursiveUtility(mid + 1, high);
+      this.merge(low, mid, high);
     }
-    this.low = low;
-    this.high = high;
-    this.mid = Math.floor((this.low + this.high) / 2);
-    this.mergeSortRecursiveUtility(this.low, this.mid);
-    this.mergeSortRecursiveUtility(this.mid + 1, this.high);
-    this.merge(this.low, this.mid, this.high);
   }
 
   private merge(low: number, mid: number, high: number) {
@@ -54,12 +44,13 @@ class MergeSort {
       this.arr[low + i] = temp[i];
     }
   }
+
   public printSortedArray() {
     console.log(this.arr);
   }
 }
 
-const arr = [5, 6, 7, 8, 1, 2];
-const soln = new MergeSort(arr, 0, arr.length);
-soln.mergeSortRecusive();
-soln.printSortedArray();
+const arr2 = [5, 6, 7, 8, 1, 2];
+const soln2 = new MergeSort2(arr2);
+soln2.mergeSortRecursive();
+soln2.printSortedArray();
