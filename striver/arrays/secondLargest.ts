@@ -37,6 +37,8 @@ const secondLargestOptimal = (arr: number[]): number => {
     if (arr[i] > largest) {
       largest = arr[i];
       seclargest = temp;
+    } else if (arr[i] < largest && arr[i] > seclargest) {
+      seclargest = arr[i];
     }
   }
   return seclargest;
