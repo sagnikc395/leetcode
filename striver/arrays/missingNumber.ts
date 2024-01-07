@@ -35,7 +35,7 @@ const missingNumberXOR = (arr: number[]): number => {
   //xor of same numbers is always 0
   let xor1: number = 0;
   let xor2: number = 0;
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length - 1; i++) {
     xor2 = xor2 ^ arr[i];
     xor1 = xor1 ^ (i + 1);
   }
