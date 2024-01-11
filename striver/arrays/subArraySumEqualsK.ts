@@ -60,4 +60,27 @@ const subArraySumEqualsHashMap = (arr: number[], k: number): number => {
   return maxLen;
 };
 
+//using 2 pointers and greedy
+
+const subArraySumEquals2Pointers = (arr: number[], k: number): number => {
+  let left = 0,
+    right = 0;
+  let sum = arr[0];
+  let maxLen = 0;
+  while (right < arr.length) {
+    while (left <= right && sum > k) {
+      sum = arr[left];
+      left++;
+    }
+    // check if sum eqals
+    if (sum === k) {
+      maxLen = Math.max(maxLen, right - left + 1);
+    }
+    if (right < arr.length) {
+      sum += arr[right];
+    }
+  }
+  return maxLen;
+};
+
 console.log(subArraySumEqualsKBF([1, 1, 1, 3], 3));
