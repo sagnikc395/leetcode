@@ -12,24 +12,29 @@
 // if we are in the right osrted portion , we want to search in the left sorted portion.
 
 function findMin(nums: number[]): number {
-  let res = nums[0];
+  // let res = nums[0];
   let left = 0;
   let right = nums.length - 1;
 
   while (left < right) {
-    if (nums[left] < nums[right]) {
-      //then we can update our result potentially
-      res = Math.min(res, nums[left]);
-      break;
-    }
+    // if (nums[left] < nums[right]) {
+    //   //then we can update our result potentially
+    //   res = Math.min(res, nums[left]);
+    //   break;
+    // }
     let mid = Math.floor((left + right) / 2);
-    res = Math.min(res, nums[mid]);
-    //check if part of the left sorted portion
-    if (nums[mid] >= nums[left]) {
+    // res = Math.min(res, nums[mid]);
+    // //check if part of the left sorted portion
+    // if (nums[mid] >= nums[left]) {
+    //   left = mid + 1;
+    // } else {
+    //   right = mid - 1;
+    // }
+    if (nums[mid] > nums[right]) {
       left = mid + 1;
     } else {
-      right = mid - 1;
+      right = mid;
     }
   }
-  return res;
+  return nums[left];
 }
