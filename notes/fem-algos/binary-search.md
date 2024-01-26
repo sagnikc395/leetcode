@@ -1,0 +1,14 @@
+- Is data ordered ? can take new advanatages on complexity on this fact.
+- in binary search dont need to start from the first of it.
+- eg: let say jump 10% from start and if we cross it say 10%, go back from to the element linearly ,  this helps in setting the lower and the upper bound.
+- or directly jump directly to the middle of the array.
+- if not , then can check only 1 part of the array.
+- if greater than item , then check in left half ? (cause sorted)
+- if smaller than item, then check in righ half.
+- do this recursively for every half.
+- each time it is halving it either no half let to look at , or we found it .
+- TC: O(logn) -> each time halfing it and losing the search space.
+- worst case is when the item is not in the array.
+- this type of searching is called as binary search.
+- Note: If the input halves at each step its likely O(logn) or O(nlogn) ; depnding if we are scanning or not.
+- 
