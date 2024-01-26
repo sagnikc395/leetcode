@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fem-algos/binary-search.md",
+                "file": "fem-algos/sorting.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fem-algos/binary-search.md",
+                "file": "fem-algos/sorting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fem-algos/binary-search.md",
+                "file": "fem-algos/sorting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fem-algos/binary-search.md"
+                "file": "fem-algos/sorting.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "1260596602ad4d84",
   "lastOpenFiles": [
-    "fem-algos/linear-search.md",
     "fem-algos/binary-search.md",
+    "fem-algos/sorting.md",
+    "fem-algos/linear-search.md",
     "fem-algos/arrays.md",
     "fem-algos/big-0.md",
     "Welcome.md",

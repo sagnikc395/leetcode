@@ -1,0 +1,8 @@
+- always start with some weird thing in sorting.
+- bubblesort:
+	- insertion sort is usually harder
+	- easier to visualize ; and 3 lines 
+	- the largest item ; in a singular iteration will produce the largest item at the last item.
+	- so for the next iteration will only iterate till the last -1 position.
+	- runtime coplexity is N, n-1,n-2, 1 checks iteratively for each element.
+	- TC: O(n^2)
