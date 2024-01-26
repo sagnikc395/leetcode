@@ -1,33 +1,35 @@
 function isValid(s: string): boolean {
-    let stack = [];
-    for(let i=0;i<s.length;i++){
-        if(s[i]==='('){
-            stack.push(s[i]);
-        }
-        else if(s[i]==='{'){
-            stack.push(s[i]);
-        }
-        else if(s[i]==='['){
-            stack.push(s[i]);
-        }
-        else if(s[i]===']'){
-            //check tos is [ and return 
-            if(s[0]==='['){
-                stack.shift();
-            }
-        }
-        else if(s[i]==='}'){
-            if(s[0]==='{'){
-                stack.shift();
-            }
-        }
-        else if(s[i]===')'){
-            if(s[0]==='('){
-                stack.shift();
-            }
-        }
+  let stack: string[] = [];
+  for (let i = 0; i < s.length; i++) {
+    let x = s[i];
+    if (x == "{" || x == "[" || x == "(") {
+      stack.push(x);
+      continue;
     }
-    if(stack.length === 0){
-        return true;
-    }return false;
-};
+    if (stack.length === 0) {
+      return false;
+    }
+    let check;
+    switch (x) {
+      case ")":
+        check = stack.pop();
+        if (check == "{" || check == "[") {
+          return false;
+        }
+        break;
+      case "]":
+        check = stack.pop();
+        if (check == "(" || check == "{") {
+          return false;
+        }
+        break;
+      case "}":
+        check = stack.pop();
+        if (check == "(" || check == "[") {
+          return false;
+        }
+        break;
+    }
+  }
+  return stack.length === 0;
+}
