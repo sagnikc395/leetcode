@@ -1,0 +1,8 @@
+- Yes , arrays.
+- const a = \[] is not a array.
+- Javascript arrays are cool , do a lot of stuff under the hood.
+- Contiguous memory space with certain amount of bytes.
+	- Computer treates the 4 bytes of memory as a singular number -> does not have a specific meaning, only for a humans to understand the memory here.
+	- int\[3] -> 3 * type_size(32bits/4bytes) memory allocated together ; an array.
+	- For us it is like a slot, under the hood discrete memory .
+	- 
