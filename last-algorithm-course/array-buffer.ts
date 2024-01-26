@@ -20,5 +20,8 @@ console.log(a);
 // we took basically a continuous array units and see them in different views
 // one of 8bit units 
 // other of 16bit units.
-
+// with Uint16Array | UInt8Array we can crate views into it.
 // this is actual arrays in javascript, not Array which is bascially list under the hood.
+console.log(a);
+
+// 
