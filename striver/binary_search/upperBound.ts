@@ -1,7 +1,7 @@
 function upperBound(arr: number[], target: number): number {
   let low = 0;
   let high = arr.length - 1;
-  let res = arr.length - 1;
+  let res = arr.length;
   while (low <= high) {
     let mid = Math.floor((low + high) / 2);
     if (arr[mid] > target) {
