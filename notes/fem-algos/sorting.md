@@ -6,3 +6,4 @@
 	- so for the next iteration will only iterate till the last -1 position.
 	- runtime coplexity is N, n-1,n-2, 1 checks iteratively for each element.
 	- TC: O(n^2)
+- mutability and sorting terrible for performance.

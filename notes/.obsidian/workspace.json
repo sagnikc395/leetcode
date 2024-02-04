@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "24faf887a717e0d5",
+        "id": "52b55997ecce8dcb",
         "type": "tabs",
         "children": [
           {
-            "id": "1260596602ad4d84",
+            "id": "8e5a5048bf2a7278",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fem-algos/sorting.md",
+                "file": "fem-algos/queues.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fem-algos/sorting.md",
+                "file": "fem-algos/queues.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fem-algos/sorting.md",
+                "file": "fem-algos/queues.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fem-algos/sorting.md"
+                "file": "fem-algos/queues.md"
               }
             }
           }
@@ -147,10 +147,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1260596602ad4d84",
+  "active": "8e5a5048bf2a7278",
   "lastOpenFiles": [
-    "fem-algos/binary-search.md",
+    "Screenshot 2024-02-04 at 9.59.46 AM.png",
+    "fem-algos/queues.md",
+    "fem-algos/Linked List.md",
+    "fem-algos/images/Screenshot 2024-02-04 at 9.45.36 AM.png",
+    "fem-algos/images",
+    "fem-algos/images/Screenshot 2024-02-04 at 9.43.23 AM.png",
+    "fem-algos/images/Screenshot 2024-02-04 at 9.41.17 AM.png",
+    "fem-algos/images/Screenshot 2024-02-04 at 9.38.46 AM.png",
     "fem-algos/sorting.md",
+    "fem-algos/binary-search.md",
     "fem-algos/linear-search.md",
     "fem-algos/arrays.md",
     "fem-algos/big-0.md",
