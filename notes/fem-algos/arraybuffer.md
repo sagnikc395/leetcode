@@ -1,0 +1,14 @@
+- ArrayBuffers / RingBuffers
+- Very fancy word but not all that confusing.
+- Used in Rust's DequeVec!
+- We have something like a array base stuff.
+- Have a index based head and tail.
+- To remove from the head, +1 to the head and the item there is no longer in there -> o(1)
+- Add to the tail:
+	- ADD +1 To the tail.
+- the end then points to the head of the list.
+- resizing of the array is the issue.
+-  only problem happens when tail exceeds our head: we need to resize.
+- ringbuffers also maintains order.
+- resize:
+	- go from the head till the tail and write to a new capacity with the head at 0 and tail at end.

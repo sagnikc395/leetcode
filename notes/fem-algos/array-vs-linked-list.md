@@ -11,4 +11,3 @@
 - Bad:
 	- Traversal is always Linear Search not a binary search and required hop in it.
 	- Random hops requires array, push and pop from top and end of list requires list.
-	- 
