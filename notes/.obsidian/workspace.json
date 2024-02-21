@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fem-algos/stacks.md",
+                "file": "fem-algos/array-vs-linked-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fem-algos/stacks.md",
+                "file": "fem-algos/array-vs-linked-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fem-algos/stacks.md",
+                "file": "fem-algos/array-vs-linked-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fem-algos/stacks.md"
+                "file": "fem-algos/array-vs-linked-list.md"
               }
             }
           }
@@ -149,9 +149,10 @@
   },
   "active": "4681646cfc511a61",
   "lastOpenFiles": [
+    "fem-algos/stacks.md",
+    "fem-algos/array-vs-linked-list.md",
     "Screenshot 2024-02-21 at 8.03.10 PM.png",
     "fem-algos/queues.md",
-    "fem-algos/stacks.md",
     "fem-algos/sorting.md",
     "Screenshot 2024-02-04 at 9.59.46 AM.png",
     "fem-algos/Linked List.md",
