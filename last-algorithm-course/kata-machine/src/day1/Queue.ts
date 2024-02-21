@@ -24,6 +24,7 @@ export default class Queue<T> {
 
         // swapping pointers
         this.tail.next = node;
+        // update tail to the end of the queue.
         this.tail = node;
     }
     deque(): T | undefined {
@@ -39,7 +40,8 @@ export default class Queue<T> {
         return head.value;
     }
     peek(): T | undefined {
-        // get the top element of the head.
+        // get the top element of the head. if doesnt exist 
+        // return undefined.
         return this.head?.value;
     }
 }

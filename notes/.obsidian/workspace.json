@@ -11,8 +11,12 @@
             "id": "4681646cfc511a61",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "fem-algos/stacks.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "fem-algos/stacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "fem-algos/stacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "fem-algos/stacks.md"
+              }
             }
           }
         ]
@@ -141,7 +149,10 @@
   },
   "active": "4681646cfc511a61",
   "lastOpenFiles": [
+    "Screenshot 2024-02-21 at 8.03.10 PM.png",
     "fem-algos/queues.md",
+    "fem-algos/stacks.md",
+    "fem-algos/sorting.md",
     "Screenshot 2024-02-04 at 9.59.46 AM.png",
     "fem-algos/Linked List.md",
     "fem-algos/images/Screenshot 2024-02-04 at 9.45.36 AM.png",
@@ -149,7 +160,6 @@
     "fem-algos/images/Screenshot 2024-02-04 at 9.43.23 AM.png",
     "fem-algos/images/Screenshot 2024-02-04 at 9.41.17 AM.png",
     "fem-algos/images/Screenshot 2024-02-04 at 9.38.46 AM.png",
-    "fem-algos/sorting.md",
     "fem-algos/binary-search.md",
     "fem-algos/linear-search.md",
     "fem-algos/arrays.md",
