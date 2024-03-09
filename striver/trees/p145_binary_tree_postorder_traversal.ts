@@ -11,20 +11,18 @@
  *     }
  * }
  */
-
 import { TreeNode } from "./TreeNode";
-
-function preorder(root: TreeNode | null, res: number[]) {
-  if (root === null) {
+function postorder(root: TreeNode | null, arr: Array<number>) {
+  if (root == null) {
     return;
   }
-  res.push(root.val);
-  preorder(root.left, res);
-  preorder(root.right, res);
+  postorder(root.left, arr);
+  postorder(root.right, arr);
+  arr.push(root.val);
 }
 
-function preorderTraversal(root: TreeNode | null): number[] {
-  let ans: number[] = [];
-  preorder(root, ans);
-  return ans;
+function postorderTraversal(root: TreeNode | null): number[] {
+  let res: number[] = [];
+  postorder(root, res);
+  return res;
 }
