@@ -1,4 +1,4 @@
-class BinaryTreeNode {
+export class BinaryTreeNode {
     data: number;
     left: BinaryTreeNode | null;
     right: BinaryTreeNode | null;
@@ -7,6 +7,9 @@ class BinaryTreeNode {
         this.data = data;
     }
 }
+
+
+
 
 const node = new BinaryTreeNode(1);
 node.left = new BinaryTreeNode(2);
