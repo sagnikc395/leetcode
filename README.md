@@ -15,7 +15,3 @@ Algorithms + Data Structures + Leetcode in Typescript
   - Daily Leetcode Challenges Solutions. Note some may be missing if some work came up or something else, but I try to be more or less routine with adding the solution for these.
 - [last-algorithms-course](./last-algorithm-course/)
   - The Primeagen's Last Algorithm Course in Typescript.
-
-
-### Topicd Covered:
-- TODO -> Add topics covered and to be covered here in a checklist fashion here.
