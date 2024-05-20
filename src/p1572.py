@@ -13,5 +13,15 @@ class Solution:
       col_num = c - i - 1 
       secondary_diag = matrix[i][col_num]
       summ += primar_diag
+      
+      if i != col_num:
+        summ += secondary_diag
+      
+    return summ 
+
+print(Solution().diagonalSum([[1,1,1,1],[1,1,1,1],[1,1,1,1],[1,1,1,1]]))
+
+
+
             
       
