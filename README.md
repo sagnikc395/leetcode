@@ -1,3 +1,3 @@
-# leetcode
+# leetcode + dsa
 
-some leetcode coding challenges
+leetcode and dsa coding challenges and practice.
