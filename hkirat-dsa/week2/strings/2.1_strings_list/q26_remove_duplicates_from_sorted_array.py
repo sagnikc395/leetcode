@@ -1,4 +1,4 @@
-'''
+"""
 given an integer array , in sorted in ascending order , might have duplicate elments,
 need to remove the duplicates in-place.
 
@@ -10,9 +10,9 @@ need to keep the relative ordering the same.
 
 in the solution, they will only check the number of elements in the valid array 
 
-'''
+"""
 
-'''
+"""
 Soln : 0(N) -> single traversal 
 O(1)
 
@@ -31,10 +31,9 @@ Soln:
 3. Pointer2 -> traverse the current array 
 4. prev -> prev unique element that we encountered.
 5. prev -> float('-inf') to denote that we havent seen any prev no yet.
-'''
-
+"""
 
 
 class Solution:
-    def remove_duplicates(self,nums):
+    def remove_duplicates(self, nums):
         pass
