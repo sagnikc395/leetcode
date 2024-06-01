@@ -12,3 +12,5 @@ class Solution:
         combinedArray.sort()
         for i in range(0, len(combinedArray)):
             nums1[i] = combinedArray[i]
+
+print(Solution().merge())
