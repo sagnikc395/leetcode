@@ -13,4 +13,15 @@ class Solution:
         for i in range(0, len(combinedArray)):
             nums1[i] = combinedArray[i]
 
-print(Solution().merge())
+    # single pass 1 loop solution 
+    def merge2(self,nums1,nums2,m,n):
+        for j in range(0,n):
+            nums1[m+j] = nums2[j]
+        
+        nums1.sort()
+        # optimized in terms of space , as we didnt add new space.
+        
+
+
+#for debugging 
+print(Solution().merge([1,2,3,0,0,0],3,[2,5,6],3))
