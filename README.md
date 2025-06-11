@@ -1,5 +1,3 @@
-## dsa 
+## leetcode 
 
-Data Strutures and Algorithms Practice Repo.
-
-
+leetcode practice repo.
