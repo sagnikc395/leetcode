@@ -1,5 +1,7 @@
 # https://leetcode.com/problems/binary-search/description/
 
+from typing import List 
+
 class Solution:
     def search(self, arr: List[int], target: int) -> int:
         n = len(arr)
