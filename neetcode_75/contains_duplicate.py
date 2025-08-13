@@ -2,7 +2,7 @@ from typing import List
 
 class Solution:
     def containsDuplicate(self,nums: List[int]) -> bool:
-        hashset = {}
+        hashset = set()
         for n in nums:
             # check if already present 
             if n in hashnet:
